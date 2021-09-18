@@ -61,4 +61,27 @@ After all these transformations the dataframe shall appear in the format given b
 ### Heat Map
 ![](https://i.postimg.cc/qvzJZ2T5/index.png)
 
+## Feature Engineering
+- Apply mean encoding for Job Title
+- Apply mean encoding for Agency
+- Apply mean encoding for AgencyID
+
+## Test train split
+- Divide tarin set into Dependent and independent variables
+- Divide test set into Dependent and independent variables
+- Scale the train, test
+
+### Scaling
+There are two types of scaling
+- Standard Scaling
+- MinMax Scaling
+
+## Model Evalution
+We have used Linear Regression model.
+
+### Distribution plot of Residuals
+![](https://i.postimg.cc/j5Jv8ggS/index.png)
+
+### Scatter plot of Residuals
+![](https://i.postimg.cc/y6mykS2t/index.png)
 
